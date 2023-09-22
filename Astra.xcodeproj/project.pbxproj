@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DB89D192ABDDFA4006C524C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB89D182ABDDFA4006C524C /* AppDelegate.swift */; };
+		6DB89D1B2ABDDFA4006C524C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB89D1A2ABDDFA4006C524C /* SceneDelegate.swift */; };
+		6DB89D1D2ABDDFA4006C524C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB89D1C2ABDDFA4006C524C /* ViewController.swift */; };
+		6DB89D202ABDDFA4006C524C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB89D1E2ABDDFA4006C524C /* Main.storyboard */; };
+		6DB89D222ABDDFA5006C524C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB89D212ABDDFA5006C524C /* Assets.xcassets */; };
+		6DB89D252ABDDFA5006C524C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB89D232ABDDFA5006C524C /* LaunchScreen.storyboard */; };
+		6DB89D302ABDDFA5006C524C /* AstraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB89D2F2ABDDFA5006C524C /* AstraTests.swift */; };
+		6DB89D3A2ABDDFA5006C524C /* AstraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB89D392ABDDFA5006C524C /* AstraUITests.swift */; };
+		6DB89D3C2ABDDFA6006C524C /* AstraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB89D3B2ABDDFA6006C524C /* AstraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DB89D2C2ABDDFA5006C524C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB89D0D2ABDDFA4006C524C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB89D142ABDDFA4006C524C;
+			remoteInfo = Astra;
+		};
+		6DB89D362ABDDFA5006C524C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB89D0D2ABDDFA4006C524C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB89D142ABDDFA4006C524C;
+			remoteInfo = Astra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DB89D152ABDDFA4006C524C /* Astra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB89D182ABDDFA4006C524C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DB89D1A2ABDDFA4006C524C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6DB89D1C2ABDDFA4006C524C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DB89D1F2ABDDFA4006C524C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DB89D212ABDDFA5006C524C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DB89D242ABDDFA5006C524C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DB89D262ABDDFA5006C524C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DB89D2B2ABDDFA5006C524C /* AstraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB89D2F2ABDDFA5006C524C /* AstraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstraTests.swift; sourceTree = "<group>"; };
+		6DB89D352ABDDFA5006C524C /* AstraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB89D392ABDDFA5006C524C /* AstraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstraUITests.swift; sourceTree = "<group>"; };
+		6DB89D3B2ABDDFA6006C524C /* AstraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DB89D122ABDDFA4006C524C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB89D282ABDDFA5006C524C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB89D322ABDDFA5006C524C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DB89D0C2ABDDFA4006C524C = {
+			isa = PBXGroup;
+			children = (
+				6DB89D172ABDDFA4006C524C /* Astra */,
+				6DB89D2E2ABDDFA5006C524C /* AstraTests */,
+				6DB89D382ABDDFA5006C524C /* AstraUITests */,
+				6DB89D162ABDDFA4006C524C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DB89D162ABDDFA4006C524C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DB89D152ABDDFA4006C524C /* Astra.app */,
+				6DB89D2B2ABDDFA5006C524C /* AstraTests.xctest */,
+				6DB89D352ABDDFA5006C524C /* AstraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DB89D172ABDDFA4006C524C /* Astra */ = {
+			isa = PBXGroup;
+			children = (
+				6DB89D182ABDDFA4006C524C /* AppDelegate.swift */,
+				6DB89D1A2ABDDFA4006C524C /* SceneDelegate.swift */,
+				6DB89D1C2ABDDFA4006C524C /* ViewController.swift */,
+				6DB89D1E2ABDDFA4006C524C /* Main.storyboard */,
+				6DB89D212ABDDFA5006C524C /* Assets.xcassets */,
+				6DB89D232ABDDFA5006C524C /* LaunchScreen.storyboard */,
+				6DB89D262ABDDFA5006C524C /* Info.plist */,
+			);
+			path = Astra;
+			sourceTree = "<group>";
+		};
+		6DB89D2E2ABDDFA5006C524C /* AstraTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DB89D2F2ABDDFA5006C524C /* AstraTests.swift */,
+			);
+			path = AstraTests;
+			sourceTree = "<group>";
+		};
+		6DB89D382ABDDFA5006C524C /* AstraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DB89D392ABDDFA5006C524C /* AstraUITests.swift */,
+				6DB89D3B2ABDDFA6006C524C /* AstraUITestsLaunchTests.swift */,
+			);
+			path = AstraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DB89D142ABDDFA4006C524C /* Astra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB89D3F2ABDDFA6006C524C /* Build configuration list for PBXNativeTarget "Astra" */;
+			buildPhases = (
+				6DB89D112ABDDFA4006C524C /* Sources */,
+				6DB89D122ABDDFA4006C524C /* Frameworks */,
+				6DB89D132ABDDFA4006C524C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Astra;
+			productName = Astra;
+			productReference = 6DB89D152ABDDFA4006C524C /* Astra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DB89D2A2ABDDFA5006C524C /* AstraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB89D422ABDDFA6006C524C /* Build configuration list for PBXNativeTarget "AstraTests" */;
+			buildPhases = (
+				6DB89D272ABDDFA5006C524C /* Sources */,
+				6DB89D282ABDDFA5006C524C /* Frameworks */,
+				6DB89D292ABDDFA5006C524C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DB89D2D2ABDDFA5006C524C /* PBXTargetDependency */,
+			);
+			name = AstraTests;
+			productName = AstraTests;
+			productReference = 6DB89D2B2ABDDFA5006C524C /* AstraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DB89D342ABDDFA5006C524C /* AstraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB89D452ABDDFA6006C524C /* Build configuration list for PBXNativeTarget "AstraUITests" */;
+			buildPhases = (
+				6DB89D312ABDDFA5006C524C /* Sources */,
+				6DB89D322ABDDFA5006C524C /* Frameworks */,
+				6DB89D332ABDDFA5006C524C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DB89D372ABDDFA5006C524C /* PBXTargetDependency */,
+			);
+			name = AstraUITests;
+			productName = AstraUITests;
+			productReference = 6DB89D352ABDDFA5006C524C /* AstraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB89D0D2ABDDFA4006C524C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6DB89D142ABDDFA4006C524C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					6DB89D2A2ABDDFA5006C524C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6DB89D142ABDDFA4006C524C;
+					};
+					6DB89D342ABDDFA5006C524C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6DB89D142ABDDFA4006C524C;
+					};
+				};
+			};
+			buildConfigurationList = 6DB89D102ABDDFA4006C524C /* Build configuration list for PBXProject "Astra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DB89D0C2ABDDFA4006C524C;
+			productRefGroup = 6DB89D162ABDDFA4006C524C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DB89D142ABDDFA4006C524C /* Astra */,
+				6DB89D2A2ABDDFA5006C524C /* AstraTests */,
+				6DB89D342ABDDFA5006C524C /* AstraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DB89D132ABDDFA4006C524C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB89D252ABDDFA5006C524C /* LaunchScreen.storyboard in Resources */,
+				6DB89D222ABDDFA5006C524C /* Assets.xcassets in Resources */,
+				6DB89D202ABDDFA4006C524C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB89D292ABDDFA5006C524C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB89D332ABDDFA5006C524C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DB89D112ABDDFA4006C524C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB89D1D2ABDDFA4006C524C /* ViewController.swift in Sources */,
+				6DB89D192ABDDFA4006C524C /* AppDelegate.swift in Sources */,
+				6DB89D1B2ABDDFA4006C524C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB89D272ABDDFA5006C524C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB89D302ABDDFA5006C524C /* AstraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB89D312ABDDFA5006C524C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB89D3C2ABDDFA6006C524C /* AstraUITestsLaunchTests.swift in Sources */,
+				6DB89D3A2ABDDFA5006C524C /* AstraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DB89D2D2ABDDFA5006C524C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DB89D142ABDDFA4006C524C /* Astra */;
+			targetProxy = 6DB89D2C2ABDDFA5006C524C /* PBXContainerItemProxy */;
+		};
+		6DB89D372ABDDFA5006C524C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DB89D142ABDDFA4006C524C /* Astra */;
+			targetProxy = 6DB89D362ABDDFA5006C524C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DB89D1E2ABDDFA4006C524C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB89D1F2ABDDFA4006C524C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DB89D232ABDDFA5006C524C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB89D242ABDDFA5006C524C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DB89D3D2ABDDFA6006C524C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DB89D3E2ABDDFA6006C524C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DB89D402ABDDFA6006C524C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Astra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.astra.abc.Astra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DB89D412ABDDFA6006C524C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Astra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.astra.abc.Astra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6DB89D432ABDDFA6006C524C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.astra.abc.AstraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Astra";
+			};
+			name = Debug;
+		};
+		6DB89D442ABDDFA6006C524C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.astra.abc.AstraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Astra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Astra";
+			};
+			name = Release;
+		};
+		6DB89D462ABDDFA6006C524C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.astra.abc.AstraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astra;
+			};
+			name = Debug;
+		};
+		6DB89D472ABDDFA6006C524C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.astra.abc.AstraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Astra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DB89D102ABDDFA4006C524C /* Build configuration list for PBXProject "Astra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB89D3D2ABDDFA6006C524C /* Debug */,
+				6DB89D3E2ABDDFA6006C524C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB89D3F2ABDDFA6006C524C /* Build configuration list for PBXNativeTarget "Astra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB89D402ABDDFA6006C524C /* Debug */,
+				6DB89D412ABDDFA6006C524C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB89D422ABDDFA6006C524C /* Build configuration list for PBXNativeTarget "AstraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB89D432ABDDFA6006C524C /* Debug */,
+				6DB89D442ABDDFA6006C524C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB89D452ABDDFA6006C524C /* Build configuration list for PBXNativeTarget "AstraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB89D462ABDDFA6006C524C /* Debug */,
+				6DB89D472ABDDFA6006C524C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB89D0D2ABDDFA4006C524C /* Project object */;
+}
